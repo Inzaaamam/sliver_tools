@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:sliver/sliver/headerprisistent.dart';
 import 'package:sliver_tools/sliver_tools.dart';
 
@@ -15,10 +16,9 @@ class _HomeScreenState extends State<HomeScreen> {
   void _toggleList(int index) {
     setState(() {
       if (_openedListIndex == index) {
-        _openedListIndex = null; // Close the currently opened list
+        _openedListIndex = null;
       } else {
-        _openedListIndex =
-            index; // Open the new list and close the previous one
+        _openedListIndex = index;
       }
     });
   }

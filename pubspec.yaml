@@ -14,6 +14,11 @@ dependencies:
 
   cupertino_icons: ^1.0.6
   sliver_tools: ^0.2.12
+  dio: ^5.6.0
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  scrollable_list_tab_scroller: ^3.1.0
 
 dev_dependencies:
   flutter_test:
