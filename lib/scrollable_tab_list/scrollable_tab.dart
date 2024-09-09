@@ -103,7 +103,7 @@ class _ScrollableTabState extends State<ScrollableTab> {
           children: [
             Text(
               data.keys.elementAt(index),
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
             ),
             ...data.values
                 .elementAt(index)
@@ -115,7 +115,7 @@ class _ScrollableTabState extends State<ScrollableTab> {
                       leading: Container(
                         height: 40,
                         width: 40,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                             shape: BoxShape.circle, color: Colors.grey),
                         alignment: Alignment.center,
                         child: Text(index.toString()),

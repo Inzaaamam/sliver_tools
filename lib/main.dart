@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sliver/dio/dio.dart';
-import 'package:sliver/nutroviteapp/source_screen.dart';
+import 'package:sliver/sourece_api/source_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,6 +19,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: SourceNeutrantScreen());
+        home: const SourceNeutrantScreen());
   }
 }
